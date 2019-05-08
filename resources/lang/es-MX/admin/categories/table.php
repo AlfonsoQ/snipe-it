@@ -5,6 +5,6 @@ return array(
     'id'      					=> 'ID',
     'parent'   					=> 'Padre',
     'require_acceptance'      	=> 'Aceptación',
-    'title'      				=> 'Categoría de equipo',
+    'title'      				=> 'Categoría de activo',
 
 );
