@@ -2,26 +2,26 @@
 
 return array(
 
-    'undeployable' 		=> '<strong>Atención: </strong> Este equipo está marcado como no isntalabre.
+    'undeployable' 		=> '<strong>Atención: </strong> Este activo está marcado como no disponible.
                         Si no es correcto, actualiza su estado.',
-    'does_not_exist' 	=> 'Equipo inexistente.',
+    'does_not_exist' 	=> 'Activo inexistente.',
     'does_not_exist_or_not_requestable' => 'Buen intento. El activo no existe o no es solicitable.',
-    'assoc_users'	 	=> 'Equipo asignado a un usuario, no se puede eliminar.',
+    'assoc_users'	 	=> 'Activo asignado a un usuario, no se puede eliminar.',
 
     'create' => array(
-        'error'   		=> 'Equipo no creado, intentalo de nuevo. :(',
-        'success' 		=> 'Equipo creado. :)'
+        'error'   		=> 'Activo no creado, intentalo de nuevo. :(',
+        'success' 		=> 'Activo creado. :)'
     ),
 
     'update' => array(
-        'error'   			=> 'Equipo no actualizado, intentalo de nuevo',
-        'success' 			=> 'Equipo actualizado.',
+        'error'   			=> 'Activo no actualizado, intentalo de nuevo',
+        'success' 			=> 'Activo actualizado.',
         'nothing_updated'	=>  'Ningún campo fue seleccionado, por lo que nada ha sido actualizado.',
     ),
 
     'restore' => array(
-        'error'   		=> 'El equipo no fue restaurado, por favor intente nuevamente',
-        'success' 		=> 'Equipo restaurado correctamente.'
+        'error'   		=> 'El activo no fue restaurado, por favor intente nuevamente',
+        'success' 		=> 'Activo restaurado correctamente.'
     ),
 
     'audit' => array(
@@ -59,24 +59,24 @@ return array(
     ),
 
     'checkout' => array(
-        'error'   		=> 'Equipo no asignado, intentalo de nuevo',
-        'success' 		=> 'Equipo asignado.',
+        'error'   		=> 'Activo no asignado, intentalo de nuevo',
+        'success' 		=> 'Activo asignado.',
         'user_does_not_exist' => 'Este usuario no es correcto. Intentalo de nuevo.',
         'not_available' => '¡Ese artículo no está disponible para retirada!',
         'no_assets_selected' => 'Debes seleccionar al menos un elemento de la lista'
     ),
 
     'checkin' => array(
-        'error'   		=> 'No se ha quitado el equipo. Intentalo de nuevo.',
-        'success' 		=> 'Equipo quitado correctamente.',
+        'error'   		=> 'No se ha quitado el activo. Intentalo de nuevo.',
+        'success' 		=> 'Activo quitado correctamente.',
         'user_does_not_exist' => 'Este usuario no es correcto. Intentalo de nuevo.',
         'already_checked_in'  => 'Ese activo ya se quito.',
 
     ),
 
     'requests' => array(
-        'error'   		=> 'Bien no solicitado, por favor inténtelo de nuevo',
-        'success' 		=> 'Bien solicitado correctamente.',
+        'error'   		=> 'Activo no solicitado, por favor inténtelo de nuevo',
+        'success' 		=> 'Activo solicitado correctamente.',
         'canceled'      => 'Solicitud de retirada cancelada con éxito'
     )
 
