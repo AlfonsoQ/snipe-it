@@ -21,7 +21,7 @@ return array(
     'Confirm_Asset_Checkin' => 'Confirmación de retorno de activo.',
     'Confirm_Accessory_Checkin' => 'Confirmar devolución del accesorio.',
     'Confirm_accessory_delivery' => 'Confirman entrega de accesorio.',
-    'Confirm_license_delivery' => 'Confirm license delivery.',
+    'Confirm_license_delivery' => 'Confirmar entrega de licencia.',
     'Confirm_asset_delivery' => 'Confirman entrega de activos.',
     'Confirm_consumable_delivery' => 'Confirmar entrega consumible.',
     'current_QTY' => 'Cantidad actual',
@@ -43,7 +43,7 @@ return array(
     'Low_Inventory_Report' => 'Reporte de inventario bajo',
     'min_QTY' => 'Cantidad mínima',
     'name' => 'Nombre',
-    'new_item_checked' => 'Un nuevo artículo se ha extraído bajo su nombre, los detalles están a continuación.',
+    'new_item_checked' => 'Un nuevo artículo se ha asignado bajo su nombre, los detalles están a continuación.',
     'password' => 'Contraseña:',
     'password_reset' => 'Reiniciar la contraseña',
 
