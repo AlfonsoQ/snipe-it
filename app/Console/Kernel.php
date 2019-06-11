@@ -33,6 +33,7 @@ class Kernel extends ConsoleKernel
         Commands\SyncAssetCounters::class,
         Commands\RestoreDeletedUsers::class,
         Commands\SendUpcomingAuditReport::class,
+        Commands\ImportLocations::class,
     ];
 
     /**
@@ -55,5 +56,6 @@ class Kernel extends ConsoleKernel
     protected function commands()
     {
         require base_path('routes/console.php');
+        $this->load(__DIR__.'/Commands');
     }
 }

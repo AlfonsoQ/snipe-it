@@ -180,10 +180,10 @@ class LdapSync extends Command
                     $item["createorupdate"] = 'created';
                 }
 
-                $user->first_name = e($item["firstname"]);
-                $user->last_name = e($item["lastname"]);
-                $user->username = e($item["username"]);
-                $user->email = e($item["email"]);
+                $user->first_name = $item["firstname"];
+                $user->last_name = $item["lastname"];
+                $user->username = $item["username"];
+                $user->email = $item["email"];
                 $user->employee_num = e($item["employee_number"]);
 
                 // Sync activated state for Active Directory.
@@ -192,6 +192,11 @@ class LdapSync extends Command
                     '512', '544', '66048', '66080', '262656', '262688', '328192', '328224'
                   ];
                   $user->activated = ( in_array($results[$i]['useraccountcontrol'][0], $enabled_accounts) ) ? 1 : 0;
+                }
+
+                // If we're not using AD, and there isn't an activated flag set, activate all users
+                elseif (empty($ldap_result_active_flag)) {
+                  $user->activated = 1;
                 }
 
                 if ($item['ldap_location_override'] == true) {
