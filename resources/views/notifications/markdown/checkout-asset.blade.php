@@ -64,7 +64,7 @@
 @endif
 
 
-Thanks,
+Muchas Gracias,
 
 {{ $snipeSettings->site_name }}
 

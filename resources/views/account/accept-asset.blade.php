@@ -42,14 +42,14 @@
             <div class="radio">
               <label>
                 <input type="radio" name="asset_acceptance" id="accepted" value="accepted">
-                I accept
+                Si acepto
               </label>
             </div>
 
             <div class="radio">
               <label>
                 <input type="radio" name="asset_acceptance" id="declined" value="declined">
-                I decline
+                No Acepto
               </label>
             </div>
 
@@ -64,7 +64,7 @@
             @if ($snipeSettings->require_accept_signature=='1')
             <div class="col-md-12 col-sm-12 text-center" style="padding-top: 20px">
 
-              <h3>Sign below to indicate that you agree to the terms of service:</h3>
+              <h3>Firme aqui para indicar que esta de acuerdo con los terminos del servicio:</h3>
 
               <div id="signature-pad" class="m-signature-pad">
                 <div class="m-signature-pad--body col-md-12 col-sm-12 col-lg-12 col-xs-12">

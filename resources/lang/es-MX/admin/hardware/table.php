@@ -12,12 +12,12 @@ return array(
     'dl_csv' 		=> 'Descargar CSV',
     'eol' 			=> 'EOL',
     'id'      		=> 'ID',
-    'location' 		=> 'Localización',
+    'location' 		=> 'Ubicación',
     'purchase_cost'	=> 'Costo',
     'purchase_date'	=> 'Comprado',
     'serial'   		=> 'N. Serie',
-    'status'   		=> 'Estado',
-    'title'      	=> 'Equipo ',
+    'status'   		=> 'Estatus',
+    'title'      	=> 'Nombre de equipo',
     'image'		=> 'Imagen de dispositivo',
     'days_without_acceptance' => 'Días Sin Aceptación'
 

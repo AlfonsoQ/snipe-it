@@ -55,7 +55,7 @@
 @endif
 @endcomponent
 
-Thanks,
+Muchas gracias,
 
 {{ $snipeSettings->site_name }}
 
