@@ -3,7 +3,7 @@
 return array(
 
     'does_not_exist' => 'El departamento no existe.',
-    'assoc_users'	 => 'Esta localización está actualmente asociada con al menos un usuario y no puede ser eliminada, Por favor verifique que ningún usuario haga referencia a esta localización e intente de nuevo. ',
+    'assoc_users'	 => 'Esta ubicación está actualmente asociada con al menos un usuario y no puede ser eliminada, Por favor verifique que ningún usuario haga referencia a esta ubicación e intente de nuevo. ',
     'create' => array(
         'error'   => 'El departamento no fue creado, por favor intente de nuevo.',
         'success' => 'Departamento creado con éxito.'

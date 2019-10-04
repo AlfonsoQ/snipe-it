@@ -2,8 +2,8 @@
 
 return array(
 
-    'does_not_exist' => 'Etiqueta de estatus no existe.',
-    'assoc_assets'	 => 'Esta etiqueta de estatus esta actualmente asociado con al menos un activo y no se puede eliminar. Por favor actualice sus activos para ya no hacer referencia a este estado y vuelva a intentarlo. ',
+    'does_not_exist' => 'Estatus no existe.',
+    'assoc_assets'	 => 'Este estatus esta actualmente asociado con al menos un activo y no se puede eliminar. Por favor actualice sus equipos para ya no hacer referencia a este estado y vuelva a intentarlo. ',
 
 
     'create' => array(
@@ -23,10 +23,10 @@ return array(
     ),
 
     'help' => array(
-        'undeployable'   => 'Estos activos no pueden asignarse a nadie.',
-        'deployable'   => 'Estos activos se pueden asignar. Una vez que se les asigna, asumirán un estado meta de <i class="fa fa-circle text-blue"></i> <strong>Deployed</strong>.',
-        'archived'   => 'Estos activos no pueden asignar y solo aparecerán en la vista Archivada. Esto es útil para retener información sobre activos para presupuestos / propósitos históricos, pero mantenerlos fuera de la lista de activos del día a día.',
-        'pending'   => 'Estos activos aún no se pueden asignar a nadie, a menudo se utilizan para artículos que están pendientes de reparación, pero se espera que vuelvan a la circulación.',
+        'undeployable'   => 'Estos equipos no pueden asignarse a nadie.',
+        'deployable'   => 'Estos equipos se pueden asignar. Una vez que se les asigna, asumirán un estado meta de <i class="fa fa-circle text-blue"></i> <strong>Deployed</strong>.',
+        'archived'   => 'Estos equipos no pueden asignar y solo aparecerán en la vista Archivada. Esto es útil para retener información sobre equipos para presupuestos / propósitos históricos, pero mantenerlos fuera de la lista de activos del día a día.',
+        'pending'   => 'Estos equipos aún no se pueden asignar a nadie, a menudo se utilizan para artículos que están pendientes de reparación, pero se espera que vuelvan a la circulación.',
     ),
 
 );
